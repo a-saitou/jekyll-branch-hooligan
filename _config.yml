@@ -2,21 +2,21 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md","Gemfile","Gemfile.lock","vendor"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : NantoNaku
+title : Jekyll Bootstrap
 tagline: Site Tagline
-author : 
-  name : akira saitou  
-  email : a-saitou@sirius.ocn.ne.jp    
-  github : a-saitou
-#  twitter : taima
-#  feedburner : feedname
+author :
+  name : Name Lastname
+  email : blah@email.test
+  github : username
+  twitter : username
+  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -55,7 +55,6 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-
   BASE_PATH : false
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
@@ -66,17 +65,16 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-
-  ASSET_PATH : /assets/themes/hooligan
+  ASSET_PATH : false
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /jekyll/archive.html
-  categories_path : /jekyll/categories.html
-  tags_path : /jekyll/tags.html
-  atom_path : /jekyll/atom.xml
-  rss_path : http://192.168.0.5
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
